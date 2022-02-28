@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "1.0.0-rc",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -52,6 +52,7 @@
     }
   ],
   "devDependencies": {
+    "@types/react-test-renderer": "^17.0.1",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "@rollup/plugin-image": "^2.1.1",
@@ -79,7 +80,6 @@
     "Murillo"
   ],
   "dependencies": {
-    "@types/react-test-renderer": "^17.0.1"
   },
   "jest": {
     "moduleNameMapper": {
